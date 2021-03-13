@@ -1,14 +1,14 @@
 # Running an MQTT with support for Websocket
 
-> In order to build, test and run an interactive webapp, that use MQTT
-> As a Software Enginer
+> In order to build, test and run an interactive webapp, that use MQTT<br />
+> As a Software Engineer<br />
 > I want to quickly get a running MQTT-broker with websockets support
 
 This repo provides the minimal config needed to quickly run an MQTT-broker assuming you have docker available on your local machine.
 
 ## Running an MQTT-server
 
-1. Clone this repo: `git@github.com:mcbeelen/run-mqtt-server-in-docker.git``
+1. Clone this repo: `git@github.com:mcbeelen/run-mqtt-server-in-docker.git`
 2. Run `docker-compose up`
 
 ## Local errors
