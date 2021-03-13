@@ -1,16 +1,17 @@
-# Example for how to use MQTT with a webapp
+# Running an MQTT with support for Websocket
 
-In this repo I will track my attempt to get some webapp working with MQTT.
-The goal is to build a small online equivalent of some boardgame, 
-where the players connect remote to play and MQTT is being used to communicate the action of individual players to each other.
+> In order to build, test and run an interactive webapp, that use MQTT
+> As a Software Enginer
+> I want to quickly get a running MQTT-broker with websockets support
+
+This repo provides the minimal config needed to quickly run an MQTT-broker assuming you have docker available on your local machine.
 
 ## Running an MQTT-server
 
-### Local
+1. Clone this repo: `git@github.com:mcbeelen/run-mqtt-server-in-docker.git``
+2. Run `docker-compose up`
 
-````shell
-docker-compose up
-````
+## Local errors
 
 This will likely result in a `docker: Error response from daemon` with the details:
 ```
